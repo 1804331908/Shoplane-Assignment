@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+
+        .product-image img {
+            width: 101px;
+            height: 131px;
+            margin: 7px;
+        }
+
+        .main-section {
+            display: flex;
+            /* width: 90%;
+            margin: auto; */
+
+        }
+
+        .left-side img {
+            width: 468px;
+            height: 624px;
+            margin-top: 45px;
+            margin-left: 86px;
+        }
+
+        .left-side {
+            width: 40%;
+        }
+
+        .right-side {
+            width: 60%;
+        }
+
+        #name {
+            font-weight: 300;
+            font-size: 44px;
+            letter-spacing: -2px;
+            font-family: poppins;
+        }
+
+        #united {
+            font-family: poppins;
+            font-weight: 300;
+            font-size: 20px;
+            letter-spacing: 1px;
+            color: rgb(27, 25, 25);
+        }
+
+        #price {
+            font-family: poppins;
+            font-weight: 300;
+            font-size: 20px;
+            letter-spacing: 1px;
+            color: rgb(27, 25, 25);
+        }
+
+        #price-color {
+            font-family: poppins;
+            font-weight: 600;
+            font-size: 20px;
+            letter-spacing: 1px;
+            color: teal;
+        }
+
+        #description {
+            font-family: poppins;
+            font-weight: 300;
+            font-size: 20px;
+            letter-spacing: 1px;
+            color: rgb(27, 25, 25);
+        }
+
+        #para {
+            font-family: poppins;
+            font-size: 16px;
+            font-weight: 300;
+            color: #86939e;
+        }
+
+        #product {
+            font-family: poppins;
+            font-weight: 300;
+            font-size: 20px;
+            letter-spacing: 1px;
+            color: rgb(27, 25, 25);
+        }
+
+        #add-to-cart {
+            width: 153px;
+            height: 39px;
+            font-size: 16px;
+            background-color: #009688;
+            color: white;
+            letter-spacing: 2px;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
+            margin-top: 50px;
+        }
+
+        .right-side {
+            margin-left: 95px;
+        }
+.active {
+    border: 2px solid #009688;
+    border-radius: 5px;
+    padding: 4px;
+}
+        
+    </style>
+</head>
+
+<body>
+    <div class="main-section">
+        <div class="left-side">
+            <img id="left-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg"
+                alt="man">
+        </div>
+        <div class="right-side">
+            <div>
+                <h1 id="name">Men Navy Blue Solid Sweatshirt</h1>
+            </div>
+            <h3 id="united">United Colors of Benetton</h3>
+            <h3 id="price">Price: Rs <span id="price-color">2599</span></h3>
+            <h3 id="description">Description</h3>
+            <p id="para">Navy solid sweatshirt with patchwork, has a round neck, long sleeves, straight hem</p>
+            <div>
+                <h3 id="product">Product Preview</h3>
+                <div class="product-image">
+                    <img class="active" id="man-img1" 
+                        src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg"
+                        alt="man">
+                    <img id="man-img2"  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/efc3d5b9-1bb3-4427-af53-7acae7af98951541402833591-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-2.jpg"
+                        alt="man">
+                    <img id="man-img3" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/c7e58861-3431-4189-9903-9880f5eebd181541402833566-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-3.jpg"
+                        alt="man">
+                    <img id="man-img4" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/66490b64-32de-44b4-a6e4-fe36f1c040051541402833548-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-4.jpg"
+                        alt="man">
+                    <img id="man-img5" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/957be784-7c5d-4e90-ab9f-0928015b22891541402833645-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-5.jpg"
+                        alt="man">
+                </div>
+            </div>
+            <div class="btn">
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
